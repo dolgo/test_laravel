@@ -15,4 +15,9 @@ class PostController extends Controller {
         return Post::skip($page * $size)->take($size)->get();
     }
 
+    public function addPost()
+    {
+        return Request::all();
+    }
+
 }
