@@ -4,5 +4,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/posts', 'PostController@getPosts');
-Route::post('/posts', 'PostController@addPost');
+Route::get('/db/messages', 'MessageController@getListFromDB');
+Route::get('/nodb/messages', 'MessageController@getList');
+Route::post('/db/messages', 'MessageController@addToDB');
+Route::post('/nodb/messages', 'MessageController@add');
