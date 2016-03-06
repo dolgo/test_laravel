@@ -18,10 +18,12 @@ class MessageController extends Controller {
     public function getList()
     {
         return [
-            'id' => 1,
-            'name' => 'test name',
-            'description' => 'test description',
-            'likes_count' => 10,
+            [
+                'id' => 1,
+                'name' => 'test name',
+                'description' => 'test description',
+                'likes_count' => 10,
+            ],
         ];
     }
 
