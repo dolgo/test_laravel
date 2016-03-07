@@ -8,9 +8,9 @@ Highload test code for [Laravel](https://laravel.com/) application
     `composer update`
 
 Example routes: 
-GET [http://testlaravel.loc/nodb/messages?size=10](http://testlaravel.loc/nodb/messages?size=10)
-GET [http://testlaravel.loc/db/messages?size=10](http://testlaravel.loc/db/messages?size=10)
-GET [http://testlaravel.loc/images/like.png](http://testlaravel.loc/images/like.png)
-POST [http://testlaravel.loc/nodb/messages](http://testlaravel.loc/nodb/messages)
-POST [http://testlaravel.loc/db/messages](http://testlaravel.loc/db/messages)
+- GET [http://testlaravel.loc/nodb/messages?size=10](http://testlaravel.loc/nodb/messages?size=10)
+- GET [http://testlaravel.loc/db/messages?size=10](http://testlaravel.loc/db/messages?size=10)
+- GET [http://testlaravel.loc/images/like.png](http://testlaravel.loc/images/like.png)
+- POST [http://testlaravel.loc/nodb/messages](http://testlaravel.loc/nodb/messages)
+- POST [http://testlaravel.loc/db/messages](http://testlaravel.loc/db/messages)
 
