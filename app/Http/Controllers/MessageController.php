@@ -18,12 +18,9 @@ class MessageController extends Controller {
     public function getList()
     {
         return [
-            [
-                'id' => 1,
-                'name' => 'test name',
-                'description' => 'test description',
-                'likes_count' => 10,
-            ],
+            'page' => (int)Request::input('page', 1),
+            'size' => (int)Request::input('size', 10),
+            'description' => Request::input('order', 'id'),
         ];
     }
 
